@@ -22,6 +22,10 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT',
 
+    project_urls={
+        'Source': 'https://github.com/cristiean/bracket',
+    },
+
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Development Status :: 4 - Beta',
