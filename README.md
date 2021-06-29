@@ -41,3 +41,7 @@ In the update screen type `quit` to quit and save. This will return you to the m
 
 ### Command Line Arguments
 There is only one additional argument for main.py. It is `-f` to show the full output of the program and never clear the screen. To use this feature open the terminal and run `$ python path/to/directory/main.py -f`.
+
+# To do:
+[ ] Rename repo + any other reference to "bracketmasteri" or "BracketMaster" instead of "bracket" to avoid naming clashes
+[ ] Update README.md to tell user exactly how the application can be run (both in the shell, but also an in-code example)
