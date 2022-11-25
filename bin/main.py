@@ -64,7 +64,7 @@ def openBracket():
     teams = [x for x in list(rows[0])[1:] if x[0]!="-"]
     temp = []
     for row in rows:
-        temp.append([str(x) for x in row if isinstance(x,unicode)])
+        temp.append([str(x) for x in row if isinstance(x,str)])
     bracket = br.Bracket(teams)
     bracket.rounds = copy.deepcopy(temp)
     Round = bracket.numRounds
